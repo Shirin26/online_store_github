@@ -1,0 +1,75 @@
+[
+{
+    "model": "webapp.product",
+    "pk": 1,
+    "fields": {
+        "name": "water",
+        "description": null,
+        "category": "other",
+        "balance": 5,
+        "price": "30.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 2,
+    "fields": {
+        "name": "brad",
+        "description": null,
+        "category": "other",
+        "balance": 50,
+        "price": "20.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 3,
+    "fields": {
+        "name": "umbrella",
+        "description": null,
+        "category": "other",
+        "balance": 10,
+        "price": "200.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 4,
+    "fields": {
+        "name": "towel",
+        "description": null,
+        "category": "other",
+        "balance": 20,
+        "price": "100.00"
+    }
+},
+{
+    "model": "webapp.product",
+    "pk": 5,
+    "fields": {
+        "name": "soup",
+        "description": null,
+        "category": "other",
+        "balance": 120,
+        "price": "80.00"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$JyOoUZxzGqqlT7G5bnwPwO$rcuoHzbYPd20d80AAdHzP6l7BqNc6xoo0L8axo68vyU=",
+        "last_login": "2023-05-31T08:08:51.689Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-31T08:08:25.554Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
