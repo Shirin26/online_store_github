@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block nav %}
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="{% url 'product_add' %}">Create product</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Update product</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Delete product</a>
+    </li>
+{% endblock %}
+
+{% block content %}
+    <h1>Product</h1>
+    <h4>Name: {{ product.name }}</h4>
+    <p>Description: {{ product.description }}</p>
+    <p>Category: {{ product.get_category_display }}</p>
+    <p>Balance: {{ product.balance }}</p>
+    <p>Price: {{ product.price }}</p>
+{% endblock %}
